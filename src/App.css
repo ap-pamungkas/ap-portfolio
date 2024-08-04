@@ -1,0 +1,15 @@
+
+
+/* src/App.css */
+html, body {
+    height: 100%;
+    margin: 0;
+   /* Prevents default scrollbars */
+  }
+
+  .hero{
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+ 
