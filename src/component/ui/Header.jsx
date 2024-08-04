@@ -1,12 +1,12 @@
 import { Link } from "react-scroll"; // Import for smooth scrolling
 import { Navbar } from "flowbite-react";
-import logo from "../../assets/react.svg";
+import logo from "../../assets/putra.jpeg";
 
 const Header = () => {
   return (
     <Navbar fluid rounded className="bg-transparent shadow-md fixed top-0 left-0 w-full  z-[9999]"> {/* Added fixed positioning */}
-      <Navbar.Brand href="#about">
-        <img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+      <Navbar.Brand href="#home">
+        <img src={logo} className="mr-3 h-6 sm:h-9 shadow-white rounded-full" alt="Flowbite React Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
           Agustinus Putra Pamungkas
         </span>

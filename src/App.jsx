@@ -13,7 +13,7 @@ function App() {
           <img 
             src={parallaxImg} 
             alt="image" 
-            className='parallax2 absolute top-0 left-0 w-full md:h-[80%] lg:h-full  h-full object-cover' 
+            className='parallax2 absolute top-0 left-0 w-full md:h-[80%] lg:h-full  h-[80%] object-cover' 
           />
         </SimpleParallax>
 
